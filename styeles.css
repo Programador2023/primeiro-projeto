@@ -23,7 +23,6 @@ header {
 } 
 
 
-
  .button-header {
     background: #665AE1;
     Width: 130px;
@@ -34,12 +33,15 @@ header {
     line-height: 29px;
     color:black;
     cursor: pointer;
+    transition: transform 100ms linear;
+   }
 
-
+    button:hover {
   
-    
-
- }
+      transform: scale(1.08);
+  }
+ 
+ 
 
 .logo-image {
    width: 568px;
@@ -78,10 +80,7 @@ header {
     margin-bottom: 65px;
 
  }
- button:hover {
-  
-    background-color: #F5F5DC;
-}
+ 
 
   .button-main {
     background: #ADFF00;
