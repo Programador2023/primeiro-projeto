@@ -19,7 +19,7 @@ header {
     color: #989D9C;
     cursor: pointer;
     margin-right: 23px;
-
+    transition: transform 100ms linear;
 } 
 
 
@@ -60,16 +60,26 @@ header {
     font-size: 100px;
     line-height: 122px;
     color:#515151;
+    cursor: pointer;
+    transition: transform 100ms linear;
  }
+ h1:hover { 
+   transform: scale(1.08);
+   opacity: 0.5;
 
+
+}
  h2 {
     font-weight: 500;
     font-size: 58px;    
     line-height: 71px;
     color: #515151;
-
+    transition: transform 100ms linear;
  }
-
+ h2:hover { 
+   transform: scale(1.08);
+   opacity: 0.5;
+ }
  p {
     font-weight: 400;
     font-size: 24px;
